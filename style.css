@@ -1,15 +1,20 @@
 #clock img {
+    position: fixed;
 
 }
 
 #hour {
-
+    transform: rotate(90deg);
+    z-index: 2;
 }
 
+
 #minute {
+    transform: rotate(180deg);
+    z-index: 1;
 
 }
 
 #second {
-
+    z-index: 3;
 }
